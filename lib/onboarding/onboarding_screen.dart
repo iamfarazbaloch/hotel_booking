@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:hotel_booking_app/onboarding/onboarding_page1.dart';
-import 'package:hotel_booking_app/onboarding/onboarding_page2.dart';
-import 'package:hotel_booking_app/onboarding/onboarding_page3.dart';
+
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../pages/login_page.dart';
+import 'onboarding_page1.dart';
+import 'onboarding_page2.dart';
+import 'onboarding_page3.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
